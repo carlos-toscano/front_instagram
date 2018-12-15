@@ -18,9 +18,8 @@ class App extends Component {
                 <Navbar/>
                 <header></header>
                 <main>
-                  <body></body>
+                  <body>{Routes}</body>
                 </main>
-                {Routes}
                 <Footer />
               </React.Fragment>
             </Router>
