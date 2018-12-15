@@ -19,8 +19,13 @@ class Navbar extends Component {
                 </React.Fragment>
               ) : (
                 <React.Fragment>
-                  <li><a href="/login">Login</a></li>
-                  <li><a href="/signup">Sign Up</a></li>
+                  <li>
+
+                    <a href="/login"><i className="small material-icons" style={{display: 'inline-block'}}>account_box</i>Login</a>
+                  </li>
+                  <li>
+
+                    <a href="/signup"><i className="small material-icons" style={{display: 'inline-block'}}>add_box</i>Sign Up</a></li>
                 </React.Fragment>
               )
             }
